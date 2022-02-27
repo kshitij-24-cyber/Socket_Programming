@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class client {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("localhost", 4000);
+        Socket socket = new Socket("localhost", 4002);
         System.out.println("connected with server");
         // bufferReader is used to give input by the client to server
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

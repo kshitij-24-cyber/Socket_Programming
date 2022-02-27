@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="final commit">
-      <change afterPath="$PROJECT_DIR$/src/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiThreadedServer.java" afterDir="false" />
+    <list default="true" id="851d4889-3f33-42c1-a51f-4d4423fd481a" name="Changes" comment="final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiThreadedServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiThreadedServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.multiThreadedServer">
+  <component name="RunManager" selected="Application.client_2">
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client" />
       <module name="SOCKET_PROGRAMMING" />
@@ -79,9 +76,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.multiThreadedServer" />
         <item itemvalue="Application.client_2" />
         <item itemvalue="Application.client" />
+        <item itemvalue="Application.multiThreadedServer" />
         <item itemvalue="Application.server" />
       </list>
     </recent_temporary>
@@ -89,7 +86,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="" />
+      <changelist id="851d4889-3f33-42c1-a51f-4d4423fd481a" name="Changes" comment="final commit" />
       <created>1645946326897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -97,6 +94,8 @@
       <workItem from="1645946331787" duration="2083000" />
       <workItem from="1645972689875" duration="2821000" />
       <workItem from="1645977934212" duration="295000" />
+      <workItem from="1645979222846" duration="388000" />
+      <workItem from="1645979636439" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="server port created">
       <created>1645946707340</created>
@@ -156,5 +155,15 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="final commit" />
     <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.BindException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
