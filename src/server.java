@@ -7,6 +7,7 @@ public class server {
         ServerSocket socket = new ServerSocket(4000);
         System.out.println("waiting for client to connect with the server");
         Socket clientSocket = socket.accept();
+        System.out.println("client connected");
 
 
     }
