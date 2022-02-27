@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="server port created">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socketProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SOCKET_PROGRAMMING.iml" afterDir="false" />
+    <list default="true" id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/src/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiThreadedServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +39,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.client">
+  <component name="RunManager" selected="Application.multiThreadedServer">
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client" />
+      <module name="SOCKET_PROGRAMMING" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client_2" />
+      <module name="SOCKET_PROGRAMMING" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multiThreadedServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiThreadedServer" />
       <module name="SOCKET_PROGRAMMING" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,21 +77,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SOCKET_PROGRAMMING" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SOCKET_PROGRAMMING" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.multiThreadedServer" />
+        <item itemvalue="Application.client_2" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.server" />
       </list>
@@ -78,7 +94,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645946326897</updated>
-      <workItem from="1645946331787" duration="634000" />
+      <workItem from="1645946331787" duration="2083000" />
+      <workItem from="1645972689875" duration="2821000" />
+      <workItem from="1645977934212" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="server port created">
       <created>1645946707340</created>
@@ -87,7 +105,35 @@
       <option name="project" value="LOCAL" />
       <updated>1645946707340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1645947137574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947137574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1645947209664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947209664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1645947258862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947258862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1645948377200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645948377200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +149,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="server port created" />
-    <option name="LAST_COMMIT_MESSAGE" value="server port created" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>

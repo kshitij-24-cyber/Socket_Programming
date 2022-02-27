@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class client {
+public class client_2 {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("localhost", 4000);
         System.out.println("connected with server");
@@ -21,7 +21,7 @@ public class client {
             out.println(message);
             String response = in.readLine();
             System.out.println(response);
-        }while (!message.equals("exits"));
+        } while (!message.equals("exits"));
 
 
     }
