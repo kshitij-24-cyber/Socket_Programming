@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="server port created">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socketProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SOCKET_PROGRAMMING.iml" afterDir="false" />
+    <list default="true" id="32b231f2-ca0b-4b3b-b8f5-95f2dbea343f" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOCKET_PROGRAMMING/server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -78,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645946326897</updated>
-      <workItem from="1645946331787" duration="634000" />
+      <workItem from="1645946331787" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="server port created">
       <created>1645946707340</created>
@@ -87,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645946707340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1645947137574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947137574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1645947209664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947209664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1645947258862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645947258862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="server port created" />
-    <option name="LAST_COMMIT_MESSAGE" value="server port created" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
